@@ -1,7 +1,13 @@
+import UsuarioProvider from "./contexts/UsuarioContext";
+import Login from "./pages/Login";
+import './index.css'
+
 const App = () => {
   return (
     <>
-    ola
+      <UsuarioProvider>
+        <Login />
+      </UsuarioProvider>
     </>
   );
 }
