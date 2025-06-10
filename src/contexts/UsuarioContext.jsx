@@ -7,6 +7,11 @@ export const UsuarioContext = createContext()
 const UsuarioProvider = ({ children }) => {
     const [logado, setLogado] = useState(false);
 
+    // if() {
+
+    // }
+
+
     return (
         <UsuarioContext.Provider value={{ logado, setLogado }}>
             {children}
