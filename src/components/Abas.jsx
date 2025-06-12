@@ -4,13 +4,13 @@ const Abas = () => {
   const [selected, setSelected] = useState("Comprar");
 
   return (
-    <div className="flex items-center gap-2 p-4 rounded-lg">
+    <div className="flex items-center gap-2 p-4 rounded-lg ">
       <button
         className={`w-[191px] h-[53px] rounded-tl-[12px] rounded-tr-[12px] text-lg font-medium border ${
           selected === "Comprar"
             ? "text-white border-red-600"
             : "bg-gray-200 text-black border-gray-300"
-        }`}
+        } duration-700`}
         style={{
           backgroundColor: selected === "Comprar" ? "#E04300" : "#f0f0f0",
         }}
