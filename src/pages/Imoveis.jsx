@@ -11,11 +11,12 @@ import TiposImovel from "../components/TiposImovel";
 const Imoveis = () => {
     return (
         <main>
-
             <div className="px-[30px] flex ">
                 <div className="flex flex-col py-8 gap-4" >
                     <Filtro />
                     <div className="border-[#00000026] border rounded-lg">
+                        <Abas />
+                        <TiposImovel />
                         <QuantidadeGaragens />
                         <QuantidadeQuartos />
                         <QuantidadeBanheiros />
@@ -24,17 +25,6 @@ const Imoveis = () => {
                 <div className="px-4">
                     <Pesquisa />
                     <Card />
-
-            <div className="px-[30px] py-[50px]">
-                <div className="border-[#00000026] border rounded-lg">
-                    <TiposImovel />
-                    <Abas />
-                    <QuantidadeGaragens />
-                    <QuantidadeQuartos />
-                    <QuantidadeBanheiros />
-                </div>
-                <div>
-
                 </div>
             </div>
         </main>

@@ -25,12 +25,6 @@ const Login = () => {
         const emailValue = emailRef.current.value;
         const senhaValue = senhaRef.current.value;
 
-
-        let dados = {
-            usuario_email: emailValue,
-            usuario_senha: senhaValue
-        }
-
         // setEmail('Email');
         // setSenha('Senha');
 
