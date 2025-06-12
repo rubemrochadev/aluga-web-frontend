@@ -3,6 +3,8 @@ import PageNotFound from "../pages/PageNotFound";
 import PageLayout from "../layout/PageLayout";
 import Login from "../pages/Login";
 import Home from "../pages/Home";
+import Moveis from "../pages/Moveis";
+import Cadastro from "../pages/Cadastro";
 
 const Paths = () => {
     return (
@@ -11,8 +13,9 @@ const Paths = () => {
                 <Routes>
                     <Route path="/" element={<PageLayout />} >
                         <Route index element={<Home />} />
-                        <Route  path="/pesquisa"/>
+                        <Route  path="/moveis" element={<Moveis />}/>
                     </Route>
+                    <Route path="/cadastro" element={<Cadastro />} />
                     <Route  path="/login" element={<Login />}/>
                     <Route  path="*" element={<PageNotFound />}/>
                 </Routes>
