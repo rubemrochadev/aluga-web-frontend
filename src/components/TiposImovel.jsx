@@ -7,7 +7,7 @@ const TiposImovel = () => {
             <h6 className="p-4 text-[16px] font-bold ml-[10px]">Tipo de imóveis</h6>
             <div className="flex gap-6">
 
-                
+
                 {/* <button className="p-3 flex flex-col items-center gap-[2px] w-[75px] h-[75px] rounded-[10px] bg-[#E04300] text-white cursor-pointer" >
                     <box-icon name='home' color="white"></box-icon>               Casa
                 </button>
@@ -38,8 +38,7 @@ const TiposImovel = () => {
                         }
                     </button>
                 ))}
-
-
+                ola
             </div>
         </div>
     );
