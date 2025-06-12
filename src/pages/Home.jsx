@@ -1,6 +1,5 @@
 const Home = () => {
     return (
-
         <div className="px-[50px] flex justify-between items-center">
             <div className="">
                 <div className="flex flex-col gap-[10px] relative *:font-bold">
