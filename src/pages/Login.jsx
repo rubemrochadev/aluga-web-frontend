@@ -26,14 +26,10 @@ const Login = () => {
         const senhaValue = senhaRef.current.value;
 
 
-        const dadosUsuario = dados.usuario.find((item) =>
-            item.usuario_email == emailValue &&
-            item.usuario_senha == senhaValue
-        );
-        const verificaSenha = dados.usuario.some((item) => item.usuario_senha == senhaValue);
-        const verificaEmail = dados.usuario.some((item) => item.usuario_email == emailValue);
-
-        const data = dadosUsuario;
+        let dados = {
+            usuario_email: emailValue,
+            usuario_senha: senhaValue
+        }
 
         // setEmail('Email');
         // setSenha('Senha');

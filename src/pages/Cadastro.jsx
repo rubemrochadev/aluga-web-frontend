@@ -43,7 +43,7 @@ const Cadastro = () => {
             console.log("Cadastro feito:", request.data);
 
         } catch (erro) {
-            console.log("deu ruim", erro)
+            console.log("deu ruim", erro.message)
         }
 
     }
