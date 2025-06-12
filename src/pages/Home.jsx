@@ -1,6 +1,5 @@
 const Home = () => {
     return (
-
         <div className="px-[50px] flex justify-between items-center">
             <div className="">
                 <div className="flex flex-col gap-[10px] relative *:font-bold">
@@ -12,7 +11,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <img src="src/assets/imgmulher.png" alt="" className="h-[450px] mt-16" />
+            <img src="src/assets/imgmulher.png" alt="" className="h-[450px] mt-16 " />
         </div>
 
     );
