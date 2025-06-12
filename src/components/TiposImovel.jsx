@@ -6,10 +6,12 @@ const TiposImovel = () => {
         <div className="px-20 p-4 w-[390px] flex flex-col  ">
             <h6 className="p-4 text-[16px] font-bold ml-[10px]">Tipo de imóveis</h6>
             <div className="flex gap-6">
+
+                
                 {/* <button className="p-3 flex flex-col items-center gap-[2px] w-[75px] h-[75px] rounded-[10px] bg-[#E04300] text-white cursor-pointer" >
                     <box-icon name='home' color="white"></box-icon>               Casa
                 </button>
-                
+
                 <button className="w-[109px] h-[75px] rounded-[10px] bg-[#E0430070] text-orange-700 cursor-pointer"><box-icon name='buildings' color="#E04300"></box-icon>Apartamento
                 </button> */}
                 {[1, 2].map((num) => (
