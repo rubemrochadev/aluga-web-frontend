@@ -13,7 +13,7 @@ const Card = ({
     preco = "R$ 5.000"
 }) => {
     return (
-        <div className="flex bg-white rounded-lg w-[795px] h-[200px] mt-[201px] ml-[472px] shadow p-4 mb-4 border">
+        <div className="flex bg-white rounded-lg w-[795px] shadow p-4 mb-4 border">
             <img
                 src={imagem}
                 alt="Foto do imóvel"
@@ -36,7 +36,7 @@ const Card = ({
                 </div>
             </div>
             <div className="flex flex-col items-end justify-between min-w-[120px]">
-                <button className="self-end">
+                <button className="  bg-orange-100 p-3  rounded-xl hover:bg-orange-200  duration-700 text-center flex items-center">
                     <box-icon name="heart" color="#DF4300"></box-icon>
                 </button>
                 <div className="text-right">
