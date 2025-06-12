@@ -12,7 +12,7 @@ const QuantidadeQuartos = () => {
           <button
             key={num}
             onClick={() => setSelected(num)}
-            className={`w-[72px] h-[54px] rounded-[8px] text-lg font-medium border text-white cursor-pointer`}
+            className={`w-[72px] h-[54px] rounded-[8px] text-lg font-medium border text-white cursor-pointer duration-700`}
             style={{
               backgroundColor: selected === num ? "#E04300" : "#E0430033",
               borderColor: selected === num ? "#E04300" : "#E0430033",

@@ -1,3 +1,4 @@
+import Abas from "../components/Abas";
 import QuantidadeBanheiros from "../components/QuantidadeBanheiros";
 import QuantidadeGaragens from "../components/QuantidadeGaragens";
 import QuantidadeQuartos from "../components/QuantidadeQuartos";
@@ -7,6 +8,7 @@ const Imoveis = () => {
         <main>
             <div className="px-[30px] py-[50px]">
                 <div className="border-[#00000026] border rounded-lg">
+                    <Abas />
                     <QuantidadeGaragens />
                     <QuantidadeQuartos />
                     <QuantidadeBanheiros />
