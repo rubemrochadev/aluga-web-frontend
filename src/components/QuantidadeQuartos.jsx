@@ -4,6 +4,7 @@ import { useState } from "react";
 const QuantidadeQuartos = () => {
   const [selected, setSelected] = useState(1); // Começa com "+1" selecionado
 
+
   return (
     <div className="flex flex-col items-start p-6 rounded-lg">
       <h2 className="text-lg font-semibold mb-4">Quantidade de quartos</h2>

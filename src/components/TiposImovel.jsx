@@ -45,4 +45,5 @@ const TiposImovel = () => {
     );
 }
 
+
 export default TiposImovel
